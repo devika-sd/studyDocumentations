@@ -1,0 +1,62 @@
+Hasura
+https://hasura.io/docs/latest/graphql/core/databases/postgres/queries/nested-object-queries.html
+
+https://hasura.io/docs/latest/graphql/core/databases/postgres/schema/table-relationships/index.html
+
+Graphql
+https://www.youtube.com/watch?v=X3QM6Ap6u-4
+https://graphql.org/
+https://www.youtube.com/watch?v=_Zss2Mbz4Bs
+https://graphql.org/graphql-js/
+https://www.youtube.com/watch?v=Dr2dDWzThK8
+
+
+Nodejs-express-postgres
+https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/
+
+Postgres queries
+https://www.tutorialspoint.com/postgresql/postgresql_insert_query.htm
+
+Microservice example
+https://www.cuelogic.com/blog/microservices-with-node-js
+
+Async package in nodejs
+https://caolan.github.io/async/v3/
+
+Aws s3 upload image using nodejs
+https://medium.com/codingtown/amazon-s3-bucket-image-upload-using-node-js-f1fe58183a88
+
+Upload image in mysql
+https://codingstatus.com/how-to-store-image-in-mysql-database-using-node-js/
+https://www.bezkoder.com/node-js-upload-image-mysql/
+
+Express Routes
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
+
+Sending Email through nodejs
+https://www.w3schools.com/nodejs/nodejs_email.asp
+
+Mysql Json data type
+https://www.mysqltutorial.org/mysql-json/
+https://www.digitalocean.com/community/tutorials/working-with-json-in-mysql
+https://dev.mysql.com/doc/refman/8.0/en/json.html
+
+MVC for nodejs 
+https://medium.com/@abhijeetgurle/file-structure-of-node-js-and-express-application-4d9fb66c8d68
+
+Mvc through express
+https://expressjs.com/en/starter/generator.html
+
+Mysql
+https://www.w3schools.com/sql/sql_join_left.asp
+
+
+
+
+
+
+
+
+
+
+
