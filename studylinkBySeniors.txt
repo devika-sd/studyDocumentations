@@ -1,0 +1,36 @@
+--sai github
+https://github.com/saimanishpogaku
+
+--sai documentations link
+https://github.com/saimanishpogaku/Documentation/blob/master/links.txt
+
+------ Akshay saini Node js Architecture
+https://www.youtube.com/watch?v=8zKuNo4ay8E 
+
+Aws connection with nodejs
+https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/loading-node-credentials-shared.html
+
+Upload image to aws s3 using nodejs
+https://github.com/saimanishpogaku/Nodejs/blob/master/helpers/uploader.js
+
+----- Node js and backend production level
+https://www.youtube.com/c/yoursTRULY267 -
+
+ -------- Typescript
+https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw
+
+------- Javascript by Akshay Saini
+https://www.youtube.com/c/akshaymarch7
+
+ - Typescript
+https://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA
+
+ -------- Devops
+https://www.youtube.com/c/sreeharshav
+
+----- hasura
+Hasura free and open source engine overview
+
+---- Hasura tutorial playlist
+https://www.youtube.com/watch?v=KcjMyICV9Js&list=PLX7eV3JL9sflIX7IOwnP_W36jwLV7fHaS
+
