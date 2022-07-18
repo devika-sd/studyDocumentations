@@ -1,0 +1,7 @@
+	• Open startup.json  -->edit according to microservice
+	• Npm install -g pm2
+	• pm2 install typescript
+	• Pm2 start startup.json --watch
+	• Pm2 logs <id>
+	• Pm2 restart all
+          Pm2 kill

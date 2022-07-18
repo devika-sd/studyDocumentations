@@ -1,0 +1,26 @@
+1. Login to RDC
+2. Opem MTPutty (multi tabbed Putty)
+3. check 10.8.13.21
+4. commands to use
+	history | grep export
+5. copy any of kubeConfig command -- example command
+	export 	KUBECONFIG=/usr/local/share/qa-anthos/qa-anthos-kubeconfig
+6.command to use
+	kubectl get all -n microservice
+		(or)
+	kubectl get pod -n microservice
+
+=>log command
+=>kubectl logs <podname> -n microservice
+
+=>see secret values
+=>kubectl get secret solaire-secret -o jsonpath='{.data}' -n microservice
+
+=>edit secret values
+=>kubectl edit secrets solaire-secret -n microservice
+
+=>edit config value
+=>kubectl edit configmap solaire-config -n microservice
+
+=>for viewing source code
+=>kubectl exec -it  redis-microservice-6fb97dd7f8-zkknn -n microservice  -- sh

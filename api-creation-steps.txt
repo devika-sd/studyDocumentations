@@ -1,0 +1,5 @@
+1. need to gather api information clearly
+2. write detailed api description in jira ticket & enter ticket number in doc file
+3. create git branch with ticket number
+4. build api logic
+5. while pushing the code after commit , pull development branch 

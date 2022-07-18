@@ -1,0 +1,4 @@
+for running specific testing api
+
+-- append in test script -> package.json
+	" --testPathPattern=tests/patronInquiry "
