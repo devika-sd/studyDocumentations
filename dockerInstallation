@@ -1,0 +1,35 @@
+Step 1: Get the docker-compose file
+ 
+From <https://hasura.io/docs/latest/graphql/core/getting-started/docker-simple.html#introduction>
+ 
+Open
+hasura/graphql-engine/install-manifests repo
+Go to docker compose - https://github.com/hasura/graphql-engine/tree/stable/install-manifests/docker-compose
+Open docker-compose.yaml file
+Click on raw and copy that file content and save it to the new file with name docker-compose.yaml in new folder called hasura.
+ 
+Open vscode -> open newly created hasura folder in vscode -> save the  docker-compose.yaml file in this directory 
+Edit the docker-compose.yaml file and uncomment the line 
+HASURA_GRAPHQL_ADMIN_SECRET
+
+Step 2: Run Hasura GraphQL engine
+Now open docker desktop app wait until docker and k8 start running.
+Open cmd prompt and fire command -
+docker-compose up -d
+
+After that check the containers are running:
+docker ps
+hasura/graphql-engine
+Postgres
+ 
+Open the http://localhost:8080/console in browser and you can see hasura console in browser.
+Put the admin secret to login to hasura in local.
+Step 3: Connect a database
+Now connect connect to new database:
+click on data->manage->connect db
+give a name to database in Database Display Name field
+add postgres db url: 
+postgres://postgres:postgrespassword@postgres:5432/postgres
+Click on connect db.
+
+From <https://outlook.office.com/mail/inbox/id/AAQkADUxZGUzMzJhLWQ2ODYtNGJlMC1iMjcyLWZhZGM4NWQwMzlmYwAQAC%2Fn13w9N8pNqDY2z8oskek%3D> 
