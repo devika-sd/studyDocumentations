@@ -1,0 +1,189 @@
+Request
+Axios
+restAPI using nodejs
+Data validation for incoming data
+
+	• JS
+	• Nodejs - architecture
+		○  jwt
+		○ Session
+		○ Nodemailer
+		○ fs
+		○ ejs
+		○ Readline
+		○ Event
+		○ Cron/scheduler
+		○ swagger
+	• Express js
+	
+	• Microservices
+	• MySQL
+	• Aws s3
+	• Aws lambda
+	• Firebase
+	• PostgreSQL
+	• Graphql
+	• Unit testing - Mocha , chai , jest
+
+	• Hasura
+	• Docker
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+/etc/ - it will have all config files -- in linux machine
+
+ORM - object Relation Mapper
+	Sequelize for nodejs
+
+GCR- google cloud repository
+
+---------------------------------------------------------------------
+Intro:
+-----------
+It is a version control system
+We can track project history and work together
+
+version control system:
+-------------------------------
+Two types  : Centralized , distributed
+
+Centralized -->all team members works on centralised repository
+		Examples: subversion, team foundation server
+		Disadvantage: if server goes down, can't get code need to wait for server back again
+Distributed --> all team member can have a copy of code in local     machine
+		Example: Git, Mercurial
+		
+Git:
+--------
+Free, open source, super fast, scalable Branching and merging
+
+Ways to use:
+---------------------
+	• Command line - fastest and easiest
+	• Code editor (GitLens - extension)& Ide 
+	• GUI - git(built in tools are available),gitKraken, sourceTree(only for windows & mac , free)
+	
+Level of congif/settings:
+--------------------
+	• System - all user
+	• Global - all repo for current user
+	• Local - current repo of current user
+
+Sample settings:
+-----------------------
+Git config --global -e ==> we can edit git settings using default editor
+Git config --global core.editor "code --wait"   ------------> for setting default editor (here VS code)
+
+Commands:
+Git config --help --> gives config documentss
+Git config -h --> gives short summary of config documents
+
+Git objects:
+------------------
+	• Commit
+	• Blob (files)
+	• Tree (directory)
+	• tag 
+
+Workflow:
+-------------
+Once we initialised git in project , git repository is created
+
+In local:  local --> stage area --> git repository
+
+files in the stage area will be tracked by git
+Each commit will have unique ID , it is of 40 character & hexadecimal
+
+Git add  ==> updating in stage area with latest local code (files options: . (all),*.txt(pattern), filename1 filename2 )
+Git commit ==> creates a snapshot of stage area and update in git repository(in local machine)
+Git status ==> for viewing status of repo
+Git status -s ==> for viewing status of repo in short way
+Git ls-files ==> lists of files in stage area
+Git branch ==> for viewing available branches
+Git rm filename ==> will remove in both local and stage
+			-f ==> remove in both local and stage
+			--cached -r ==> will remove in stage
+Git diff ==> compare with staging(a) and local(b) gives changes
+Git diff --staged ==>compare with git repo(a) and staging area(b) gives changes
+Git log ==> history of commit
+Git log --oneline ==> gives short summary of commit history (sorted by latest 1st)
+Git log --oneline --reverse ==> gives short summary of commit history (sorted by date desc)
+Git show HEAD~1 ==> number represents steps to traverse , --> viewing commit
+Git show comitID ==> another way of viewing commit
+Git ls-tree HEAD~1 ==> viewing commit & able to identify folder & files with blob & tree keywork
+				Blob - files
+				Tree - folder
+Git restore ==> will take copy of next enviroment and paste it in calling environment
+Git restore --staged . ==> take last copy of commit and replace it in stage area (files options: . (all),*.txt(pattern), filename1 filename2 )
+Git restore . ==> take copy of stage and replace it in local (files options: . (all),*.txt(pattern), filename1 filename2 )
+Git clean ==> for removing untracked files
+Git restore --source=HEAD~1 ==> restores to previous version
+
+Git fetch ==> for getting new branch available in remote
+
+-----------------------------------------------------------------
+S3 means Simple storage service
+
+99.99% availability
+Need to pay for how much you use.
+Efficient for content storage and distribution
+
+S3 - we can store different  types of files
+
+
+
+AWS (aws-sdk  --> nodejs package)
+
+IAM - Identity and Access Management -> it is a service
+
+	IAM user - console access(dashboard will there) & Acccess Key access
+	IAM roles 
+
+
+--------------------------------------------------------------------------
+Query - for fetching data from DB like select
+Mutation - modify data and return data like update, insert, delete
+Subscription - 
+
+------------------------------------------------------------------------
+Data types:
+
+Numeric data type:
+Int - for integer values
+Numeric(p,s) - for float value
+Serial - for auto increment value 
+
+String data type:
+Char(n) -  for fixed length
+Varchar(n) - for varying length
+Text - for unlimited length
+
+Time Date types:
+Time - holds only time
+Date - holds only date
+Timestamp - holds both date & time
+
+Other data type:
+Boolean - true or false
+Enum - only pick value for defined list of value
+
+
+------------------------------------------------------------------------------
+Ttfb depends on backend
+	Timing of server to return data
+
+1.optimise query  => dataLoader
+2.caching technique
+3.implement HTTP/2
+4.clustering
+
+----------------------------------------------------
+It is strongly typed superset of JavaScript
+
+It is a object oriented language
+Supports static typing 
+Supports for modules
+Supports optional parameter function 
+-->where js does not have these 
+
+Tsc - typescript compiler
+tsc --version --> for checking typescript version in cmd
