@@ -1,0 +1,23 @@
+Nodejs Api Migration:
+----------------------------
+
+1.NodeJs version 16.10.0.
+2.Docker.(WSL needed for Docker)
+3.git
+4.Typescript.
+5.Helm 3.
+6.Visual studio code. 
+7.Postman latest
+8.Soap UI
+9.Filezilla Client
+
+Additional
+-----------------------
+Putty -- for connection server 
+Puttygen -- helps to connect linux server in windows
+Filezilla -fz -- for ftp
+
+
+
+
+
