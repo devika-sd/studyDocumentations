@@ -1,0 +1,145 @@
+--------------------------------rohit------------------------------------------------
+AWS course:  https://cognizant.udemy.com/course/aws-lambda-serverless-architecture/learn/lecture/12910354#overview
+
+-------------hasura-----------------
+https://www.youtube.com/watch?v=FEk9Li05Ye4 
+
+--------------Git-------------
+https://www.youtube.com/watch?v=FyAAIHHClqI --  Git - Branching and Merging
+https://www.youtube.com/watch?v=uR6G2v_WsRA  -- Basics & core concepts
+https://www.youtube.com/watch?v=Gg4bLk8cGNo -- git remote concepts
+
+----------------swagger---------------------
+https://www.youtube.com/watch?v=eiSem0cqaN0 - basic
+https://github.com/saimanishpogaku/NodejsSwagger 
+
+Kubernetes - https://www.youtube.com/watch?v=X48VuDVv0do
+
+Ftp connection in nodejs - https://javascript.tutorialink.com/example-node-js-ftp-server/
+
+Object destructing in javascript - https://dmitripavlutin.com/javascript-object-destructuring/#:~:text=By%20writing%20var%20name%20%3D%20hero,without%20duplicating%20the%20property%20name.
+
+Jest configuration with typescript nodejs application - https://javascript.plainenglish.io/beginners-guide-to-testing-jest-with-node-typescript-1f46a1b87dad
+	Test examples - https://rsbh.dev/blog/rest-api-express-typescript-jest-testing
+	Supertest example - https://tutorialedge.net/typescript/testing-typescript-api-with-jest/
+	Mocking for external api - https://stackabuse.com/using-mocks-for-testing-in-javascript-with-jes/
+Swagger Poc
+https://github.com/OAI/OpenAPI-Specification/tree/main/examples/v3.0
+
+--sai github
+https://github.com/saimanishpogaku
+
+--sai documentations link
+https://github.com/saimanishpogaku/Documentation/blob/master/links.txt
+
+------ Akshay saini Node js Architecture
+https://www.youtube.com/watch?v=8zKuNo4ay8E 
+
+Aws connection with nodejs
+https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/loading-node-credentials-shared.html
+
+Upload image to aws s3 using nodejs
+https://github.com/saimanishpogaku/Nodejs/blob/master/helpers/uploader.js
+
+----- Node js and backend production level
+https://www.youtube.com/c/yoursTRULY267 
+
+ -------- Typescript
+https://www.youtube.com/channel/UC80PWRj_ZU8Zu0HSMNVwKWw
+
+------- Javascript by Akshay Saini
+https://www.youtube.com/c/akshaymarch7
+
+ - Typescript
+https://www.youtube.com/channel/UCWv7vMbMWH4-V0ZXdmDpPBA
+
+ -------- Devops
+https://www.youtube.com/c/sreeharshav
+
+----- hasura
+Hasura free and open source engine overview
+
+---- Hasura tutorial playlist
+https://www.youtube.com/watch?v=KcjMyICV9Js&list=PLX7eV3JL9sflIX7IOwnP_W36jwLV7fHaS
+
+----- git 
+https://www.youtube.com/channel/UC59K-uG2A5ogwIrHw4bmlEg
+https://www.youtube.com/watch?v=8JJ101D3knE - mosh youtuber
+
+---------------Swagger editor
+  https://editor.swagger.io/ 
+
+----------------convert swagger object ------------------
+https://roger13.github.io/SwagDefGen/
+
+--------------Jest Unit Testing-------------
+https://www.youtube.com/watch?v=7r4xVDI2vho - basic
+https://www.youtube.com/watch?v=FgnxcUQ5vho - basic
+https://youtu.be/r5L1XRZaCR0 - supertest 
+
+--------------------Regular expression sites-----------------------------
+https://regex-generator.olafneumann.org/
+https://regex101.com/
+
+Hasura
+https://hasura.io/docs/latest/graphql/core/databases/postgres/queries/nested-object-queries.html
+
+https://hasura.io/docs/latest/graphql/core/databases/postgres/schema/table-relationships/index.html
+
+Graphql
+https://graphql.org/
+	References:
+	https://graphql.org/graphql-js/
+	https://www.apollographql.com/
+	https://graphql.org/graphql-js/running-an-express-graphql-server/
+	https://www.freecodecamp.org/news/get-started-with-graphql-and-nodejs/
+	https://medium.com/codingthesmartway-com-blog/creating-a-graphql-server-with-node-js-and-express-f6dddc5320e1
+	 
+	 
+	Video references:
+	https://www.youtube.com/watch?v=X3QM6Ap6u-4
+	https://www.youtube.com/watch?v=_Zss2Mbz4Bs
+	https://www.youtube.com/watch?v=Dr2dDWzThK8
+
+
+
+Nodejs-express-postgres
+https://blog.logrocket.com/nodejs-expressjs-postgresql-crud-rest-api-example/
+
+Postgres queries
+https://www.tutorialspoint.com/postgresql/postgresql_insert_query.htm
+
+Microservice example
+https://www.cuelogic.com/blog/microservices-with-node-js
+
+Async package in nodejs
+https://caolan.github.io/async/v3/
+
+Aws s3 upload image using nodejs
+https://medium.com/codingtown/amazon-s3-bucket-image-upload-using-node-js-f1fe58183a88
+
+Upload image in mysql
+https://codingstatus.com/how-to-store-image-in-mysql-database-using-node-js/
+https://www.bezkoder.com/node-js-upload-image-mysql/
+
+Express Routes
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
+
+Sending Email through nodejs
+https://www.w3schools.com/nodejs/nodejs_email.asp
+
+Mysql Json data type
+https://www.mysqltutorial.org/mysql-json/
+https://www.digitalocean.com/community/tutorials/working-with-json-in-mysql
+https://dev.mysql.com/doc/refman/8.0/en/json.html
+
+MVC for nodejs 
+https://medium.com/@abhijeetgurle/file-structure-of-node-js-and-express-application-4d9fb66c8d68
+
+Mvc through express
+https://expressjs.com/en/starter/generator.html
+
+Mysql
+https://www.w3schools.com/sql/sql_join_left.asp
+
+
