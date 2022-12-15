@@ -1,0 +1,38 @@
+	.on - binds event to a object
+	Js is a synchronous single threaded
+	i.e it execute one command at a time and execute lines one by one
+	
+	Execution context:
+		Two parts : Memory(i.e variable environments , it contains variable and functions as a key value pair) & code(thread of execution)
+	
+			§ Phase 1(Memory creation phase): it creates identifier(variables) in memory , in case of variable , it assigns undefines and in case of functions, it stores entire function code
+			§ Phase 2(code execution phase):it execute logical operation one by one , if function invokes it generate new execution context once that function execution completes and return statement encounter then EC will get removed
+	
+	Call stack: (lets see how call stack manages execution context)
+		○ It is a stack (i.e last come first serve), call stack uses execution context for executing its code
+		○ Also called as Execution context stack, program stack, control stack, runtime stack, machine stack
+	
+			§ Bottom has global execution context, when new EC created it will be pushed to stack and If its execution was over it will be popped out of stack
+      
+----------------------------------------------------------------------------------------------------
+      
+Stack frame - memory management technique used in some programming languages for generating and eliminating temporary variables
+
+callStack - it execute a code immediately no matter what i.e JS waits for none
+
+callbackQueue - in case of callbacks , it will be moved to callback queue
+
+EventLoop - checks if the calllstack is empty and if callbacks found in microtaskqueue or if callback found in callback queue , it pushes it to callstack
+		-> continuously monitores call stack & callback queue
+microtaskQueue - its is similar to callback queue but has higher priorty ->callbacks comes from promises & mutation observer
+
+Web Api - console,dom apis, fetch,setTimeOut -- all callbacks will be stored in web Api environment, once it need to execute the callback then callback will move to callback queue
+ Repl - Read Eval Print Loop
+
+----------------------------------------------------------------------------------------------------
+How to js works:
+Memory is created for variables & functions even before executing the code
+	
+--------------------------------------------- Nodejs-------------------------------------------------
+asynchronous event-driven JavaScript runtime environment designed to build scalable network applications
+-----------------------------------------------------------------------------------------------------
